@@ -21,15 +21,15 @@ public static void main(String[] args){
 			int op = sc.nextInt();
 			switch(op){
 				case 1: for(int i = 0; i < n; i++){
-							System.out.print(arr[i]*2+" ");
+							System.out.print(arr[i]* = 2+" ");
 							}
 						break;
 				case 2: for(int i = 0; i < n; i++){
-							System.out.print(arr[i]*arr[i]+" ");
+							System.out.print(arr[i]=arr[i]*arr[i]+" ");
 							}
 						break;
-				case 3: for(int i = 0; i < n; i++){
-							System.out.print(Math.sqrt(arr[i])+" ");
+				case 3: for(double i : arr){
+							System.out.print(arr[i] = Math.sqrt(arr[i])+" ");
 							}
 						break;
 				case 4: flag = false;
